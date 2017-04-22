@@ -1,0 +1,127 @@
+---
+layout: default
+permalink: /graduationInvite/
+---
+
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{{ "/css/w3-template.css" | prepend: site.baseurl }}"/>
+
+<body>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">&iexcl;ESTA <span class="w3-hide-small">INVITADO! </span></span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">YOU'RE <span class="w3-hide-small">INVITED! </span></span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="UT Eng Com">
+  <h3 class="w3-center">La Universidad de Texas en Austin, Graduación de ingeniería</h3>
+  <h3 class="w3-center">The University of Texas at Austin Engineering Commencment</h3>
+  <div id="englishA-right">
+  	<p class="announcment">Announcing the Graduation of Josu&eacute; Alfaro with a Bachelor of Science Degree in Electrical Engineering, focus in Software & Computer Architecture,
+     	on Friday, the nineteenth of May Two thousand and seventeen at seven o'clock in the evening. Commencement ceremonies will be held at The Frank C. Erwin, Jr. Special Events Center </p>
+  </div>
+  <div id="spanishA-left">  
+    <p class="announcment">Anunciando la Graduación de Josué Alfaro con una Licenciatura en Ingeniería Eléctrica, enfocada en Software y Arquitectura de Computadora, el viernes 19 de mayo Dos mil diecisiete a las siete de la tarde. Las ceremonias de inicio se llevarán a cabo en el Centro de Eventos Especiales Frank C. Erwin, Jr.</p>
+  </div>
+	<div class="w3-content">
+	<img src="/photos/ut-emblem.jpg" style="width:50%" alt="">
+	</div>
+  <div class="w3-content">
+    	<div class="w3-col m6 w3-center w3-padding-large">
+      	<p><b><i></i>Information/Informacion</b></p><br>
+		<p>Más información detallada sobre estacionamiento, ubicación, duración de la graduación se puede encontrar <a href="http://www.engr.utexas.edu/graduation/ceremony">aquí.</a></p>
+		<p>More detailed information about parking, location, duration of graduation can be found <a href="http://www.engr.utexas.edu/graduation/ceremony">here.</a></p>
+    	</div>
+  </div>
+</div>
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-4 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">&iexcl;FIESTA!</span>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64" id="fiesta">
+    <div class="w3-row-padding w3-center">
+		<p> de todo corazon la familia alfaro les hace una invitacion a la graduacion de nuestro hijo josue josias alfaro  estamos muy felises y queremos compartir 
+              nuestra felicidad con familiares y amigos ya que nuestro hijo se gradua de la univercidad de texas los esperamos no falten se van a divertir</p>
+		<p>With all heart the alfaro family makes an invitation to the graduation of our son josue josias alfaro. We are very happy and we want to share our happiness with family and friends since our son graduates from the university of texas. We hope you will not miss you are going to have fun!</p>
+	<div class="w3-center">
+    	<p> Graduation party on May 27th, 2017 at 6pm. The party will be held at 8468 Adams Flat Rd, Brookshire, Texas, 77423 </p>
+		<p> La fiesta sera en la casa a las siez en mayo 27 2017.</p> 
+	</div>
+</div>
+</div> 
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">GRADUATION PICTURES</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="grad pics">
+  <h3 class="w3-center"></h3>
+  <p class="w3-center"><em>Stay tuned for graduation pictures.<br></em></p><br>
+  <p class="w3-center"><em>Imágenes de graduación próximamente<br></em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <!-- <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains"> -->
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <!--<button class="w3-button w3-padding-large" style="margin-top:64px">LOAD MORE</button> -->
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">QUESTION? / &iquest;PREGUNTAS?</h3>
+  <p> If you have any questions feel free to contact me through email or phone number! Have a great day :) </p>
+  <p> Si tiene alguna pregunta no dude en ponerse en contacto conmigo. Que tenga un gran día :)</p>
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 737 781 8118<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: firstintiallastname [at] utexas [dot] edu<br>
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
+</body>
+</html>
+
