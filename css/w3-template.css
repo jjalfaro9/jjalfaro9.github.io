@@ -47,15 +47,8 @@ body, html {
 }
 
 p.announcment {
-    width: 200px;
+    width: 500px;
     word-wrap: break-word;
     text-align: center;
 }
 
-#englishA-right {
-	float:right
-}
-
-#spanishA-left {
-	float:left;
-}
