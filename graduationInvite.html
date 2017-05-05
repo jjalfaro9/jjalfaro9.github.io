@@ -14,6 +14,32 @@ permalink: /graduationInvite/
 <link rel="stylesheet" href="{{ "/css/w3-template.css" | prepend: site.baseurl }}"/>
 
 <body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#UT Eng Com" class="w3-bar-item w3-button w3-hide-small"><i></i>ENGINEERING COMMENCEMENT</a>
+    <a href="#fiesta" class="w3-bar-item w3-button w3-hide-small"><i></i>FIESTA</a>
+    <a href="#grad pics" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> GRADUATION PICTURES</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#UT Eng Com" class="w3-bar-item w3-button" onclick="toggleFunction()">ENGINEERING COMMENCEMENT</a>
+    <a href="#fiesta" class="w3-bar-item w3-button" onclick="toggleFunction()"><i></i>FIESTA</a>
+    <a href="#grad pics" class="w3-bar-item w3-button" onclick="toggleFunction()"> GRADUATION PICTURES</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
 
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
