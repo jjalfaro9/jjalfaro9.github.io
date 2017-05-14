@@ -40,11 +40,11 @@ body, html {
 .w3-hover-opacity {cursor: pointer;}
 
 /* Turn off parallax scrolling for tablets and phones */
-/*@media only screen and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
-}*/
+}
 
 p.announcment {
     width: 400px;
