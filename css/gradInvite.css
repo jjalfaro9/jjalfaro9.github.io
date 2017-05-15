@@ -1,0 +1,49 @@
+html, body {
+  background-color: #eee;
+}
+
+p {
+  font-family: Verdana, Geneva, sans-serif, serif, "Times New Roman";
+  font-size: large;
+}
+
+h1 {
+  font: "Lato", sans-serif, Impact;
+  font-size: larger;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url('/photos/towerFireworks.jpg');
+    height: 410px;
+}
+
+.bgimg-2 {
+  background-image: url("/photos/ed-and-i.jpg");
+ 	min-height: 340px;
+}
+
+.bgimg-3 {
+  background-image: url("/photos/gradPics/josue-es.jpg");
+  min-height: 340px;
+}
+
+.bgimg-4 {
+  background-image: url("/photos/palmtree.jpg");
+  min-height: 340px;
+}
+
+.iGradPics {
+  height: 425px;
+  max-height: 425px;
+}
+
+#parallaxTex {
+  color: #F5F5F5;
+}
