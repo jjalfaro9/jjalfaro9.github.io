@@ -39,6 +39,12 @@ h1 {
   min-height: 340px;
 }
 
+@media only screen and (max-device-width: 1024px) {
+      .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+          background-attachment: scroll;
+      }
+}
+
 .iGradPics {
   height: 425px;
   max-height: 425px;
