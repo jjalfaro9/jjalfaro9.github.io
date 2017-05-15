@@ -21,25 +21,25 @@ h1 {
 
 .bgimg-1 {
     background-image: url('/photos/towerFireworks.jpg');
-    height: 410px;
+    /*height: 410px;*/
 }
 
 .bgimg-2 {
   background-image: url("/photos/ed-and-i.jpg");
- 	min-height: 340px;
+ 	/*min-height: 340px;*/
 }
 
 .bgimg-3 {
   background-image: url("/photos/gradPics/josue-es.jpg");
-  min-height: 340px;
+  /*min-height: 340px;*/
 }
 
 .bgimg-4 {
   background-image: url("/photos/palmtree.jpg");
-  min-height: 340px;
+  /*min-height: 340px;*/
 }
 
-@media only screen and (max-device-width: 104px) {
+@media only screen and (max-device-width: 1024px) {
       .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
           background-attachment: scroll;
       }
