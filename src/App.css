@@ -1,0 +1,24 @@
+.App {
+  height: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.App-header {
+  background-image: url("./media/israelPalmTrees.jpg");
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App-title {
+  margin: auto;
+  line-height: 50px;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: blue;
+  color: yellow;
+}
