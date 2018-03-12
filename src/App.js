@@ -36,6 +36,7 @@ const currently = "I'm a Software Engineer contributing to the back-end platform
   + "watching Rick & Morty, Brooklyn Nine-Nine, or It's Always Sunny In Philadelphia, "
   + "eating phenomenal food, "
   + "driving down Lime Creek Road, "
+  + "watching twitch streams with my brother (pictured above) "
   + "or listening to latin music!";
 
 const contactMe = "Feel free to reach out in any form of communication. "
