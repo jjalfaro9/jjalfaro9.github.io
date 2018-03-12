@@ -1,7 +1,12 @@
 {
-  "main.css": "static/css/main.1fe4f111.css",
-  "main.css.map": "static/css/main.1fe4f111.css.map",
-  "main.js": "static/js/main.91dee54e.js",
-  "main.js.map": "static/js/main.91dee54e.js.map",
-  "static/media/israelPalmTrees.jpg": "static/media/israelPalmTrees.671724ce.jpg"
+  "main.css": "static/css/main.9cbd9975.css",
+  "main.css.map": "static/css/main.9cbd9975.css.map",
+  "main.js": "static/js/main.e097509a.js",
+  "main.js.map": "static/js/main.e097509a.js.map",
+  "static/media/israelPalmTrees.jpg": "static/media/israelPalmTrees.671724ce.jpg",
+  "static/media/josueAlfaro.pdf": "static/media/josueAlfaro.948d3097.pdf",
+  "static/media/josueAndLenny.jpg": "static/media/josueAndLenny.438cef42.jpg",
+  "static/media/josueAndRamsey.jpg": "static/media/josueAndRamsey.3029ea7b.jpg",
+  "static/media/josueAndRomeo.jpg": "static/media/josueAndRomeo.23183bd2.jpg",
+  "static/media/me.jpg": "static/media/me.b5428eea.jpg"
 }
