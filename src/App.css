@@ -1,24 +1,50 @@
 .App {
-  height: 100%;
+  height: 100vh;
   margin: 0;
   text-align: center;
 }
 
 .App-header {
-  background-image: url("./media/israelPalmTrees.jpg");
-
-  height: 100%;
+  background-image: url("./media/pictures/israelPalmTrees.jpg");
 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
-.App-title {
-  margin: auto;
-  line-height: 50px;
-  font-size: 1.5em;
+.App-words {
+  font-size: 9em;
   text-align: center;
-  background-color: blue;
-  color: yellow;
+  color: #66ff00;
+  font: "Lucida Console", Monaco, monospace;
+}
+
+#rowContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+#rowContent {
+  align-self: center;
+  width: 25%;
+}
+
+.headerRowContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+@media screen and (max-width:700px) {
+  #rowContainer { flex-wrap: wrap;  }
+  #rowContent { flex-basis: 100%; }
 }
