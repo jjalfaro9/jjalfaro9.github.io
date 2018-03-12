@@ -5,9 +5,11 @@
   "private": true,
   "dependencies": {
     "gh-pages": "^1.1.0",
+    "material-ui": "^1.0.0-beta.36",
+    "material-ui-icons": "^1.0.0-beta.36",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-fullpage": "^0.1.18",
+    "react-icons": "^2.2.7",
     "react-scripts": "1.0.17"
   },
   "scripts": {
