@@ -36,7 +36,7 @@ const currently = "I'm a Software Engineer contributing to the back-end platform
   + "watching Rick & Morty, Brooklyn Nine-Nine, or It's Always Sunny In Philadelphia, "
   + "eating phenomenal food, "
   + "driving down Lime Creek Road, "
-  + "watching twitch streams with my brother (pictured above) "
+  + "watching twitch streams with my brother (pictured above), "
   + "or listening to latin music!";
 
 const contactMe = "Feel free to reach out in any form of communication. "
@@ -49,16 +49,30 @@ class App extends Component {
     return (
       <div className="App-header">
         <div className="headerRowContainer">
-          <h1><a style={svgStyle} href="https://twitter.com/jjalfaro9"><FaTwitter/></a></h1>
-          <h1><a style={svgStyle} href="https://www.instagram.com/jjalfaro9/"><FaInsta/></a></h1>
-          <a href={Resume}>
+          <h1><a style={svgStyle} href="https://twitter.com/jjalfaro9"
+                 target="_blank"
+                 rel="noopener noreferrer">
+            <FaTwitter/>
+          </a></h1>
+          <h1><a style={svgStyle} href="https://www.instagram.com/jjalfaro9/"
+                 target="_blank"
+                 rel="noopener noreferrer">
+            <FaInsta/>
+          </a></h1>
+          <a href={Resume} target="_blank" rel="noopener noreferrer">
             <ImageAvatar
               alt="Josue Alfaro"
               src={me}
             />
           </a>
-          <h1><a style={svgStyle} href="mailto:josuejalfaro+website@gmail.com"><EmailIcon/></a></h1>
-          <h1><a style={svgStyle} href="https://github.com/jjalfaro9"><GithubIcon/></a></h1>
+          <h1><a style={svgStyle} href="mailto:josuejalfaro+website@gmail.com">
+            <EmailIcon/>
+          </a></h1>
+          <h1><a style={svgStyle} href="https://github.com/jjalfaro9"
+                 target="_blank"
+                 rel="noopener noreferrer">
+            <GithubIcon/>
+          </a></h1>
         </div>
         <div id="rowContainer" className="App">
           <MyCard id="rowContent"
