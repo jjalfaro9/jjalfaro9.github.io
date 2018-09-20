@@ -25,19 +25,21 @@ const svgStyle = {
   height: 500
 };
 
-const aboutMe = "Raised in Brookshire, Texas by immigrant parents (from El Salvador)"
-+ " and I'm always proud to represent. "
+const aboutMe =
+"First generation to proud Salvadorean parents! :)"
++ "Born in Houston, Texas, but raised in Brookshire, Texas."
 + "I earned a B.S. in Electrical and Computer Engineering from "
 + "The Univeristy of Texas at Austin in May 2017. "
 + "With focus in Software Engineering and Computer Architecture. ";
 
-const currently = "I'm a Software Engineer contributing to the back-end platform at Honest Dollar. "
-  + "When I'm not working, I'm usually doing at least on of the following: "
+const currently = "I'm a first year Master's student at The Univerity of Texas at Austin in Computer Science!"
+  + "(What a mouthful sentence, but currently proud of that!)"
+  + "When I'm not studying, I'm usually doing at least one of the following: "
   + "watching Rick & Morty, Brooklyn Nine-Nine, or It's Always Sunny In Philadelphia, "
   + "eating phenomenal food, "
-  + "driving down Lime Creek Road, "
   + "watching twitch streams with my brother (pictured above), "
-  + "or listening to latin music!";
+  + "traveling to new places (e.g. Cali, NY, Colombia, Florida)"
+  + "or listening/attempting to dance  to latin music!";
 
 const contactMe = "Feel free to reach out in any form of communication. "
   + "I've provided (above) a few social mediums, as well as an email address. "
