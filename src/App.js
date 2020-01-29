@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 import lenny from './media/pictures/josueAndLenny.jpg';
 import romeo from './media/pictures/josueAndRomeo.jpg';
-import ramsey from './media/pictures/josueAndRamsey.jpg';
-import me from './media/pictures/me.jpg'
-import Resume from './media/documents/josueAlfaro.pdf';
+import hotones from './media/pictures/hotOnes.jpg';
+import me from './media/pictures/moreProfessionalMe.jpg'
+import Resume from './media/documents/josuejalfaro.pdf';
 
 import ImageAvatar from './ImageAvatars';
 import MyCard from './MyCard.js';
@@ -12,91 +12,105 @@ import MyCard from './MyCard.js';
 import FaTwitter from 'react-icons/lib/fa/twitter'
 import GithubIcon from 'react-icons/lib/go/mark-github';
 import FaInsta from 'react-icons/lib/fa/instagram';
-import GotEm from 'react-icons/lib/ti/thumbs-ok';
 import EmailIcon from 'react-icons/lib/md/email';
 
-import BlueGrey from 'material-ui/colors/blueGrey'
-
-
+import color from 'material-ui/colors/lime'
+import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
 import './App.css';
+
 const svgStyle = {
-  color: BlueGrey[50],
+  color: color[200],
   width: 100,
   height: 500
 };
 
-const aboutMe =
-"First generation to proud Salvadorean parents! :)"
-+ "Born in Houston, Texas, but raised in Brookshire, Texas."
-+ "I earned a B.S. in Electrical and Computer Engineering from "
-+ "The Univeristy of Texas at Austin in May 2017. "
-+ "With focus in Software Engineering and Computer Architecture. ";
+const aboutMe = "I'm a first generation citezen to proud Salvadorean (🇸🇻) parents! 😃"
++ "Thanks to them I've learned true definition of working hard, perseverance, importance of an education, and how to survive. "
++ "I like to think that I'm a nice and thoughtful person spreading happiness and cheer in this world. "
++ "I also enjoy placing myself in situations that are out of my comfort zone. I belive it allows me to grow and appreciate "
++ "expirences that I would have not tried in the first place. "
 
-const currently = "I'm a first year Master's student at The Univerity of Texas at Austin in Computer Science!"
-  + "(What a mouthful sentence, but currently proud of that!)"
-  + "When I'm not studying, I'm usually doing at least one of the following: "
-  + "watching Rick & Morty, Brooklyn Nine-Nine, or It's Always Sunny In Philadelphia, "
-  + "eating phenomenal food, "
-  + "watching twitch streams with my brother (pictured above), "
-  + "traveling to new places (e.g. Cali, NY, Colombia, Florida)"
-  + "or listening/attempting to dance  to latin music!";
+
+const currently = "I'm graduating in May 2020 with a M.S. in Computer Science focused in deep learning and natural language processing. "
++ "I'm actively looking for full time machine learning engineering roles as well as software engineering roles! "
+
 
 const contactMe = "Feel free to reach out in any form of communication. "
   + "I've provided (above) a few social mediums, as well as an email address. "
-  + "If interested, peep my resume. (Click on the suit & tie picture above). "
+  + "If interested, peep my resume. (Click on the middle picture of me with shades on, above). "
   + "¡Muchas gracias!"
 
 class App extends Component {
   render() {
     return (
-      <div className="App-header">
-        <div className="headerRowContainer">
-          <h1><a style={svgStyle} href="https://twitter.com/jjalfaro9"
-                 target="_blank"
-                 rel="noopener noreferrer">
-            <FaTwitter/>
-          </a></h1>
-          <h1><a style={svgStyle} href="https://www.instagram.com/jjalfaro9/"
-                 target="_blank"
-                 rel="noopener noreferrer">
-            <FaInsta/>
-          </a></h1>
-          <a href={Resume} target="_blank" rel="noopener noreferrer">
-            <ImageAvatar
-              alt="Josue Alfaro"
-              src={me}
-            />
-          </a>
-          <h1><a style={svgStyle} href="mailto:josuejalfaro+website@gmail.com">
-            <EmailIcon/>
-          </a></h1>
-          <h1><a style={svgStyle} href="https://github.com/jjalfaro9"
-                 target="_blank"
-                 rel="noopener noreferrer">
-            <GithubIcon/>
-          </a></h1>
+      <MuiThemeProvider theme={theme}>
+        <div className="App">
+          <div className="headerRowContainer">
+            <h1><a style={svgStyle} href="https://twitter.com/jjalfaro9"
+                   target="_blank"
+                   rel="noopener noreferrer">
+              <FaTwitter/>
+            </a></h1>
+            <h1><a style={svgStyle} href="https://www.instagram.com/jjalfaro9/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+              <FaInsta/>
+            </a></h1>
+            <a href={Resume} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', color:'#1A00AD'}}>
+              <ImageAvatar
+                alt="Josue Alfaro"
+                src={me}
+              />
+              <p> Resume⤴ </p>
+            </a>
+            <h1><a style={svgStyle} href="mailto:josuejalfaro+website@gmail.com">
+              <EmailIcon/>
+            </a></h1>
+            <h1><a style={svgStyle} href="https://github.com/jjalfaro9"
+                   target="_blank"
+                   rel="noopener noreferrer">
+              <GithubIcon/>
+            </a></h1>
+          </div>
+          <div id="rowContainer">
+            <MyCard id="rowContent"
+              image={lenny}
+              imageTitle="Lenny Santos & Josue Alfaro"
+              title="About"
+              about={aboutMe}/>
+            <MyCard id="rowContent"
+              image={hotones}
+              imageTitle="Friends & Josue Alfaro"
+              title="What's up currently?"
+              about={currently}/>
+            <MyCard id="rowContent"
+              image={romeo}
+              imageTitle="Romeo Santos & Josue Alfaro"
+              title="Contact"
+              about={contactMe}/>
+          </div>
         </div>
-        <div id="rowContainer" className="App">
-          <MyCard id="rowContent"
-            image={lenny}
-            imageTitle="Lenny Santos & Josue Alfaro"
-            title="About"
-            about={aboutMe}/>
-          <MyCard id="rowContent"
-            image={ramsey}
-            imageTitle="Ramsey Alfaro & Josue Alfaro"
-            title="What's up currently?"
-            about={currently}/>
-          <MyCard id="rowContent"
-            image={romeo}
-            imageTitle="Romeo Santos & Josue Alfaro"
-            title="Contact"
-            about={contactMe}/>
-        </div>
-        <div id="holaMundo"  ><GotEm /></div>
-      </div>
+      </MuiThemeProvider>
     );
   }
 }
+
+const theme = createMuiTheme({
+  typography: {
+    fontFamily: [
+      'Nunito',
+      'Roboto',
+      '"Helvetica Neue"',
+      'Arial',
+      'sans-serif'
+    ].join(','),
+  },
+  palette:  {
+    text: {
+        primary: "#1A00AD"
+      },
+  }
+});
+
 
 export default App;

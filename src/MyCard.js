@@ -7,15 +7,15 @@ import Collapse from 'material-ui/transitions/Collapse';
 import Typography from 'material-ui/Typography';
 import IconButton from 'material-ui/IconButton';
 import ExpandMoreIcon from 'material-ui-icons/ExpandMore';
-import yellow from 'material-ui/colors/yellow'
+import color from 'material-ui/colors/lime'
 
 const styles = theme => ({
   card: {
     maxWidth: 750,
-    backgroundColor: yellow[300]
+    backgroundColor: color[200]
   },
   media: {
-    height: 350,
+    height: 400,
   },
   actions: {
     display: 'flex',
