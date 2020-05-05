@@ -24,11 +24,11 @@ const svgStyle = {
   height: 500
 };
 
-const aboutMe = "I'm a first generation citezen to proud Salvadorean (🇸🇻) parents! 😃"
+const aboutMe = "I'm a first generation citizen to proud Salvadoran (🇸🇻) parents! 😃"
 + "Thanks to them I've learned true definition of working hard, perseverance, importance of an education, and how to survive. "
 + "I like to think that I'm a nice and thoughtful person spreading happiness and cheer in this world. "
-+ "I also enjoy placing myself in situations that are out of my comfort zone. I belive it allows me to grow and appreciate "
-+ "expirences that I would have not tried in the first place. "
++ "I also enjoy placing myself in situations that are out of my comfort zone. I believe it allows me to grow and appreciate "
++ "experiences that I would have not tried in the first place. "
 
 
 const currently = "I'm graduating in May 2020 with a M.S. in Computer Science focused in deep learning and natural language processing. "
