@@ -31,7 +31,7 @@ const aboutMe = "I'm a first generation citizen to proud Salvadoran (🇸🇻) p
 + "experiences that I would have not tried in the first place. "
 
 
-const currently = "I'm graduating in May 2020 with a M.S. in Computer Science focused in deep learning and natural language processing. "
+const currently = "I'm graduating in May 2020 with a M.S. in Computer Science focused in deep learning with interests in NLP and computer vision. "
 + "I'm actively looking for full time machine learning engineering roles as well as software engineering roles! "
 
 
@@ -77,15 +77,18 @@ class App extends Component {
               image={lenny}
               imageTitle="Lenny Santos & Josue Alfaro"
               title="About"
+              expanded={false}
               about={aboutMe}/>
             <MyCard id="rowContent"
               image={hotones}
               imageTitle="Friends & Josue Alfaro"
               title="What's up currently?"
+              expanded={true}
               about={currently}/>
             <MyCard id="rowContent"
               image={romeo}
               imageTitle="Romeo Santos & Josue Alfaro"
+              expanded={false}
               title="Contact"
               about={contactMe}/>
           </div>

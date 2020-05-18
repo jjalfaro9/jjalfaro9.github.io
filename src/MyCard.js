@@ -33,7 +33,7 @@ const styles = theme => ({
 });
 
 class MyCard extends React.Component {
-  state = { expanded: false };
+  state = { expanded: this.props.expanded };
 
   handleExpandClick = () => {
     this.setState({ expanded: !this.state.expanded });
